@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang= 'en'>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Basic Html</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <main>
+      <nav class='navBar'>
+        <h1>Harshini C M-->Portfolio
+        </h1>
+        <div class='NavigationMenu'>
+         <a href='#aboutme'>About Me</a>
+         <a href='#skills'>Skills</a>
+         <a href='#projects'>Projects</a>
+         <a href='#contactForm'>Connect!</a>
+        </div>
+      </nav>
+      <section class='heroSection'>
+        <img class='profileImage' src='https://cdn4.vectorstock.com/i/1000x1000/38/23/female-face-avatar-round-flat-icon-with-women-vector-11333823.jpg'>
+        <div class='heroSectionDetails'>
+          <h1>Harshini C M</h1>
+          <h3>Student</h3>
+        </div>
+      </section>
+      <section class='aboutme' id='aboutme'>
+        <h1>About Me...</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam auctor euismod bibendum. Sed sodales ex sit amet semper euismod. Proin pharetra ante at quam pulvinar, sit amet interdum eros cursus. Suspendisse sodales eleifend velit, at rutrum lacus aliquet non. Suspendisse felis risus, lacinia ut justo viverra, tincidunt blandit ligula. Nunc sapien massa, faucibus et sagittis sodales, ornare ultricies tellus. Aenean est ex, scelerisque in molestie vel, iaculis id ex. Donec congue quam vel sodales luctus. Nunc non feugiat nisi, vel porta enim. Maecenas ante ante, facilisis vel venenatis vel, rhoncus quis neque. Cras et dapibus dui. Duis eleifend suscipit arcu eget egestas. Donec tempus lectus ac sem sollicitudin euismod.</p>
+      </section>
+      <section class='skillsAndProjects' id='skillsAndProjects'>
+         <div class='skills' id='skills'>
+            <h1 class='cardHeading'>My Skills</h1>
+            <img src='https://www.w3.org/html/logo/downloads/HTML5_Badge_512.png' title='HTML'>
+            <img src='https://www.pinclipart.com/picdir/middle/175-1759459_eng-a-med-kamel-frameworks-css-css-logo.png' title='CSS'>
+            <img src='https://www.clipartmax.com/png/middle/351-3515666_c-language-global-or-external-variables-with-examples-c-programming-logo.png' title='C'>
+            <img src='https://e7.pngegg.com/pngimages/46/626/png-clipart-c-logo-the-c-programming-language-computer-icons-computer-programming-source-code-programming-miscellaneous-template.png' title='C++'>
+            <img src='https://w7.pngwing.com/pngs/917/862/png-transparent-java-programmer-computer-programming-logo-others-miscellaneous-text-logo.png' title='Java'>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png' title='Python'></div>
+         
+         <div class='projects' id='projects'>
+           <h1 class='cardHeading'>My Projects</h1>
+           <div class='projectContainer'>
+             <img src='https://pbs.twimg.com/profile_images/1170012529113882625/HL2HWq60_400x400.jpg'>
+             <div class='projectsdescription'>
+               <h4>Project Name</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare diam volutpat fermentum aliquet.</p>
+             </div>
+         </div>
+         <div class='projectContainer'><img src='http://www.testingtools.co/wp-content/uploads/2016/08/java.jpg'>
+             <div class='projectsdescription'>
+               <h4>Project Name</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare diam volutpat fermentum aliquet.</p>
+             </div>
+         </div>
+         </div>
+      </section>
+      <section class='contactForm' id='contactForm'>
+        <h1>Connect!</h1>
+           <div class='formGroup'>
+             <label for='name'>Enter full name</label><br/>
+             <input type='text' id='name' placeholder="Full Name"/>
+           </div>
+          <div class='formGroup'>
+             <label for='email'>Enter your email-id</label><br/>
+             <input type='text' id='email' placeholder="Email"/>
+           </div>
+           <div class='formGroup'>
+             <label for='message'>Any Message?</label><br/>
+             <textarea placeholder="Send some message!" id='message' name='w3review'
+             rows="4" cols="50"></textarea>
+           </div>
+           <button class='SubmitButton' onClick={submit()}>Connect</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
